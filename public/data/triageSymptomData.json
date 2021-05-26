@@ -1,0 +1,66 @@
+{
+    "userId": "999",
+    "sessionId": "888",
+    "isDiagnosisComplete": false,
+    "diagnosis": "null",
+    "questions": [
+      {
+        "symptomName": "Brethlessness",
+        "$symptomId": "111",
+        "questionType": "Symptom",
+        "selection": [
+          {
+            "id": "01",
+            "text": "Do you have breathlessness?",
+            "options": [
+                    
+                    {
+                      "text": "Yes",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#9fd221e0-9128-4960-a4ed-1c1b12f530b6"
+                    },
+                    {
+                      "text": "No",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#e5136afa-baf5-4b1d-982b-d9fe9740e67f"
+                    }
+
+            ],
+            "optionType": "single-select"
+          },
+          {
+            "id": "02",
+            "text": "Do you have Stomach Pain?",
+            "options": [
+                    
+                    {
+                      "text": "Yes",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#9fd221e0-9128-4960-a4ed-1c1b12f530b6"
+                    },
+                    {
+                      "text": "No",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#e5136afa-baf5-4b1d-982b-d9fe9740e67f"
+                    }
+
+            ],
+            "optionType": "single-select"
+          },
+          {
+            "id": "02",
+            "text": "Do you have Leg Pain?",
+            "options": [
+                    
+                    {
+                      "text": "Yes",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#9fd221e0-9128-4960-a4ed-1c1b12f530b6"
+                    },
+                    {
+                      "text": "No",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#e5136afa-baf5-4b1d-982b-d9fe9740e67f"
+                    }
+
+            ],
+            "optionType": "single-select"
+          }
+        ]
+      }
+    ]
+    }

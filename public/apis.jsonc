@@ -1,0 +1,207 @@
+[
+  {​​
+"api" : "search Symptom",
+"METHOD" : "POST",
+"endpoint" : "/search/symptoms",
+"headers" : {​​
+  "Content-Type" : "application/json"
+}​​,
+"body" : {
+  "search-term" : "fever"​​
+}​​,
+"response" :{
+    "data":[
+        {"name":"Fever","id":"9b56ae24-76b9-4cf7-bd59-47ac2b0a6e4e","type":"SYMPTOM"}, //UNIQUE ID
+        {"name":"Tiredness or fatigue","id":"2e8a09ae-3dd7-489d-9357-a0a23fa37a26","type":"SYMPTOM"},
+        {"name":"Fracture due to minor trauma or fall","id":"959510ea-68fa-4947-a0d5-ef4977f735af","type":"SYMPTOM"},
+        {"name":"Frothing from mouth","id":"df6cc6bd-8506-446d-b5ea-f9b9e8fe032c","type":"SYMPTOM"},
+        {"name":"Feeling of heaviness in scrotum","id":"90e2064d-2d48-414f-8b70-720324dc6011","type":"SYMPTOM"},
+        {"name":"Cold hands and feet","id":"9ab38f50-e5d5-4de8-80c7-25246e0473f1","type":"SYMPTOM"}
+  ]
+    }​​
+}​​,
+
+
+
+{​​
+  "api" : " fetch data",
+  "METHOD" : "POST",
+  "endpoint" : "/v1",
+  "headers" : {​​
+    "Content-Type" : "application/json"
+  }​​,
+
+  
+  "body" : {
+    
+    "sessionID": "xxxyyyy",
+    "userID": "sss",
+    "language": "English",
+    "userType": "Doctor",
+    "user-selection":[
+        {
+        "name": "Between 99 - 100.4⁰F (37.2 - 38⁰C)", 
+        "id": "9b56ae24-76b9-4cf7-bd59-47ac2b0a6e4e#a1b96516-36fb-4768-b21f-6bd59aed2394#ab48c896-54bb-4961-b19f-cb2169a95c76",
+        "type": "ATTRIBUTE"
+        }
+    ]
+  }​​,
+  "response" :{
+      "data":[
+          {
+              "sessionID": "xxxyyyy",
+              "language": "English",
+              // Unique question id
+              
+              "primary_action": {
+                "id": "id1",
+                "questionMappedTo":"symptomName",
+                "questionsType": "symptom/attribute",
+                "optionsType": "binary/multiChoice/singleChoice",
+                "question": "Since how long do you have fever?",
+                "options": [
+                  {
+                    "text": "Less than a week",
+                    "id": "9b56ae24-76b9-4cf7-bd59-47ac2b0a6e4e#df3b4b0e-93fe-4171-9b2c-eab53b441cb3#b4c566d5-d2ae-4695-afd9-4f504ee2c090",
+                  //   Unique ID [FOR YES/NO (binary options-- id was coming same)]
+                    "type": "ATTRIBUTE"
+                  },
+                  {
+                    "text": "Between 1 to 3 weeks",
+                    "id": "9b56ae24-76b9-4cf7-bd59-47ac2b0a6e4e#df3b4b0e-93fe-4171-9b2c-eab53b441cb3#9c7a5db2-72ce-4cf0-9b2d-7f3ed590294c",
+                    "type": "ATTRIBUTE"
+                  },
+                  {
+                    "text": "More than 3 weeks",
+                    "id": "9b56ae24-76b9-4cf7-bd59-47ac2b0a6e4e#df3b4b0e-93fe-4171-9b2c-eab53b441cb3#62741774-98bb-40e8-abc8-b1ede74a93ae",
+                    "type": "ATTRIBUTE"
+                  }
+                ]
+              },
+              "meta_data": {
+                "display_data": {
+                  "data": [
+                    { 
+                      "id":"2e8a09ae-3de7-489d-9357-a0a23fa37a12",  //Unique ID
+                      "name": "Anorectal abscess",
+                      "score" : "232"
+                    },
+                    {
+                      "id":"3e5a09ae-3de7-489d-9357-a0a23fa37a13",
+                      "name": "Anorectal",
+                      "score" : "233"
+                    }
+                  ]
+                },
+                "display_data_v2": {
+                  "data": [],
+                  "text": "List of probable diseases"
+                }
+              }
+            }
+            ]
+      }​​
+},​​
+
+
+
+{​​
+  "api" : "search Diseases",
+  "METHOD" : "POST",
+  "endpoint" : "/search/diseases",
+  "headers" : {​​
+    "Content-Type" : "application/json"
+  }​​,
+  "body" : {
+    "search-term" : "Deng"​​
+  }​​,
+  "response" :{
+      "data":[
+          {"name":"Covid19","id":"9b56ae24-76b9-4cf7-bd59-47ac2b0a6e4e"},
+          {"name":"Dengue","id":"2e8a09ae-3dd7-489d-9357-a0a23fa37a26"},
+          {"name":"Malaria","id":"959510ea-68fa-4947-a0d5-ef4977f735af"},
+          {"name":"Chikungunya","id":"df6cc6bd-8506-446d-b5ea-f9b9e8fe032c"},
+          {"name":"Yellow fever","id":"90e2064d-2d48-414f-8b70-720324dc6011"},
+    ]
+      }​​
+}​​,
+
+
+
+
+
+{​​
+  "api" : "search Question",
+  "METHOD" : "POST",
+  "endpoint" : "/search/question",
+  "headers" : {​​
+    "Content-Type" : "application/json"
+  }​​,
+  "body" : {
+    "search-term" : "fever"​​
+  }​​,
+  "response" :{
+      "data":[
+          {
+              "current_qt_id": "5e4ec7adc444e141fcc5ce6b", //UNIQUE ID
+              "text": "How much fever do you have?",
+              "cards": [
+                {
+                  "name": "Between 99 - 100.4⁰F (37.2 - 38⁰C)",
+                  "id": "9b56ae24-76b9-4cf7-bd59-47ac2b0a6e4e#a1b96516-36fb-4768-b21f-6bd59aed2394#ab48c896-54bb-4961-b19f-cb2169a95c76", //UNIQUE ID
+                  "type": "ATTRIBUTE"
+                },
+                {
+                  "name": "Between 100.4 - 103.9⁰F (38-39.9⁰C)",
+                  "id": "9b56ae24-76b9-4cf7-bd59-47ac2b0a6e4e#a1b96516-36fb-4768-b21f-6bd59aed2394#c2e0800e-c562-4879-8495-564065a53664",
+                  "type": "ATTRIBUTE"
+                },
+                {
+                  "name": "Between 104-106.7⁰F (40-41.5⁰C)",
+                  "id": "9b56ae24-76b9-4cf7-bd59-47ac2b0a6e4e#a1b96516-36fb-4768-b21f-6bd59aed2394#9af9cff6-4cb8-40ca-983d-52718f88f944",
+                  "type": "ATTRIBUTE"
+                },
+                {
+                  "name": "More than 106.7ᵒF (>41.5ᵒC)",
+                  "id": "9b56ae24-76b9-4cf7-bd59-47ac2b0a6e4e#a1b96516-36fb-4768-b21f-6bd59aed2394#a7a56e9f-69b7-4720-8cdb-a54d13afb075",
+                  "type": "ATTRIBUTE"
+                }
+              ],
+              "symptom_mapped_to":"Fever"
+            },
+            {
+              "current_qt_id": "5e4ec7adc444e141fcc5ce6b",
+              "text": "How much fever do you have?",
+              "cards": [
+                {
+                  "name": "Between 99 - 100.4⁰F (37.2 - 38⁰C)",
+                  "id": "9b56ae24-76b9-4cf7-bd59-47ac2b0a6e4e#a1b96516-36fb-4768-b21f-6bd59aed2394#ab48c896-54bb-4961-b19f-cb2169a95c76",
+                  "type": "ATTRIBUTE"
+                },
+                {
+                  "name": "Between 100.4 - 103.9⁰F (38-39.9⁰C)",
+                  "id": "9b56ae24-76b9-4cf7-bd59-47ac2b0a6e4e#a1b96516-36fb-4768-b21f-6bd59aed2394#c2e0800e-c562-4879-8495-564065a53664",
+                  "type": "ATTRIBUTE"
+                },
+                {
+                  "name": "Between 104-106.7⁰F (40-41.5⁰C)",
+                  "id": "9b56ae24-76b9-4cf7-bd59-47ac2b0a6e4e#a1b96516-36fb-4768-b21f-6bd59aed2394#9af9cff6-4cb8-40ca-983d-52718f88f944",
+                  "type": "ATTRIBUTE"
+                },
+                {
+                  "name": "More than 106.7ᵒF (>41.5ᵒC)",
+                  "id": "9b56ae24-76b9-4cf7-bd59-47ac2b0a6e4e#a1b96516-36fb-4768-b21f-6bd59aed2394#a7a56e9f-69b7-4720-8cdb-a54d13afb075",
+                  "type": "ATTRIBUTE"
+                }
+              ],
+              "symptom_mapped_to":"Fever"
+            }
+    ]
+      }​​
+}​​
+
+
+
+
+
+]

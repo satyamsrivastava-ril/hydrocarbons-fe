@@ -1,0 +1,146 @@
+{
+    "Male":[
+      {
+        "id": "01",
+        "text": "Do you have medical or surgical history?",
+        "options": [
+          {
+            "id": "01",
+            "text": "yes"
+          },{
+            "id": "02",
+            "text": "no"
+          }
+        ],
+        "optionType": "Boolean"
+      },
+      {
+        "id": "02",
+        "text": "Currently taking any medicines?",
+        "options": [
+            {
+              "id": "01",
+              "text": "yes"
+            },{
+              "id": "02",
+              "text": "no"
+            }
+          ],
+        "optionType": "Boolean"
+      },
+      {
+        "id": "03",
+        "text": "History or allergies?",
+        "options": [
+            {
+              "id": "01",
+              "text": "yes"
+            },{
+              "id": "02",
+              "text": "no"
+            }
+          ],
+        "optionType": "Boolean"
+      },
+      {
+        "id": "04",
+        "text": "Do you smoke?",
+        "options": [
+            {
+              "id": "01",
+              "text": "yes"
+            },{
+              "id": "02",
+              "text": "no"
+            }
+          ],
+        "optionType": "Boolean"
+      },
+      {
+        "id": "05",
+        "text": "Do you drink alcohol?",
+        "options": [
+            {
+              "id": "01",
+              "text": "yes"
+            },{
+              "id": "02",
+              "text": "no"
+            }
+          ],
+        "optionType": "Boolean"
+      }
+    ],
+    "Female":[
+        {
+          "id": "01",
+          "text": "Are you pregnant?",
+          "options": [
+            {
+              "id": "01",
+              "text": "yes"
+            },{
+              "id": "02",
+              "text": "no"
+            }
+          ],
+          "optionType": "Boolean"
+        },
+        {
+          "id": "02",
+          "text": "Are you in menopause?",
+          "options": [
+              {
+                "id": "01",
+                "text": "yes"
+              },{
+                "id": "02",
+                "text": "no"
+              }
+            ],
+          "optionType": "Boolean"
+        },
+        {
+          "id": "03",
+          "text": "History or allergies?",
+          "options": [
+              {
+                "id": "01",
+                "text": "yes"
+              },{
+                "id": "02",
+                "text": "no"
+              }
+            ],
+          "optionType": "Boolean"
+        },
+        {
+          "id": "04",
+          "text": "Currently taknig any medicines?",
+          "options": [
+              {
+                "id": "01",
+                "text": "yes"
+              },{
+                "id": "02",
+                "text": "no"
+              }
+            ],
+          "optionType": "Boolean"
+        },
+        {
+          "id": "05",
+          "text": "Do you drink alcohol?",
+          "options": [
+              {
+                "id": "01",
+                "text": "yes"
+              },{
+                "id": "02",
+                "text": "no"
+              }
+            ],
+          "optionType": "Boolean"
+        }
+      ]
+  }

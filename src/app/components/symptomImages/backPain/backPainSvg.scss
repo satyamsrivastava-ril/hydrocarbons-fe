@@ -1,0 +1,68 @@
+@import "../../../utils/constants.scss";
+.backPain-parts {
+  display: block;
+  opacity: 1;
+  z-index: 999;
+  cursor: pointer;
+}
+
+// .backPain-parts {
+//   display: inline !important;
+//   cursor: pointer;
+//   opacity: 0.5 !important;
+//   fill: $danger-color !important;
+//   stroke-width: 2px !important;
+//   stroke-opacity: 1 !important;
+//   stroke: $danger-color !important;
+// }
+
+// .backPain-parts:hover {
+//   //   transform: scale(2);
+//     // transform: scale(1.1, 1.1);
+//   display: block;
+//   cursor: pointer;
+//   fill: $danger-color;
+//   stroke: $danger-color !important;
+//   opacity: 0.9 !important;
+//   stroke-width: 2.3 !important;
+// }
+
+.one {
+  transition: 1s all;
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+}
+
+.one:hover {
+  stroke: $white-color !important;
+  stroke-width: 0 !important;
+  transform: scale(1.2, 1.2);
+}
+
+.one:hover .hover-svg {
+  display: block;
+  stroke-width: 0 !important;
+}
+.hover-svg {
+  display: none;
+}
+
+.one1 {
+  transition: 1s all;
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+}
+
+.one1:hover {
+  stroke: $white-color !important;
+  stroke-width: 0 !important;
+  transform: scale(1.2, 1.2);
+}
+
+.one1:hover .hover-svg-none {
+  display: none;
+}
+.one1:hover .hover-svg {
+  display: block;
+  stroke-width: 0 !important;
+}

@@ -1,0 +1,6 @@
+@import '../../utils/constants.scss';
+.form-control{
+  &:focus{
+    @include boxshadow(0 0 0 0.1rem rgba(255,147,0 , 0.5) !important); 
+  }
+}

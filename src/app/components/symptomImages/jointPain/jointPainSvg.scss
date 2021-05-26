@@ -1,0 +1,60 @@
+@import "../../../utils/constants.scss";
+.jointPain-parts {
+  display: block;
+  opacity: 1;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.jointPain-parts {
+  display: inline !important;
+  cursor: pointer;
+  opacity: 0.5 !important;
+  fill: $danger-color !important;
+  stroke-width: 2px !important;
+  stroke-opacity: 1 !important;
+  stroke: $danger-color !important;
+}
+
+.jointPain-parts:hover {
+  //   transform: scale(2);
+  //   transform: scale(1.1, 1.1);
+  display: block;
+  cursor: pointer;
+  fill: $danger-color !important;
+  stroke: $danger-color !important;
+  opacity: 0.9 !important;
+  stroke-width: 2.3 !important;
+}
+
+.one-joint {
+  transition: 1s all;
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+}
+
+.concentric-circle {
+  display: none;
+}
+.one-joint:hover {
+  // stroke: $white-color !important;
+  // stroke-width: 2.3 !important;
+  transform: scale(1.2, 1.2);
+}
+.one-joint:hover .concentric-circle {
+  display: block;
+}
+
+.ring-container {
+  position: relative;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  position: absolute;
+  top: 23px;
+  left: 23px;
+}

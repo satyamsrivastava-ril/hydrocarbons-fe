@@ -1,0 +1,57 @@
+@import '../../utils/constants.scss';
+#login{
+    height: 100vh;
+    h2{
+        font-weight: $light;
+        font-size: 32px;
+    } 
+    p{
+        // color: $text-light-color;
+    }
+    label{
+        // color: $text-light-color;
+        font-size: 12px;
+        font-weight: $medium;
+        line-height: 14px;
+        letter-spacing: 1px;
+    }
+    .form-group{
+        margin-bottom: 22px;
+        .form-control{
+            // border-color: $orange-border-color;
+            background-color: rgba($color: $orange-color, $alpha: 0.05);
+            height: 40px;
+            font-size: 15px;
+        }
+        .for-pwd{
+            font-weight: $regular;
+            right: 0;
+            top: 3px;
+            &:hover , a:hover{
+                color: $orange-color;
+            }
+        }
+    }
+    .login-box{
+        height: 85vh;
+        width: 440px;
+    }
+    .l-right {
+        object-fit: cover;
+        height: 100vh;
+    }
+    @media #{$tablet}{
+        .login-box{
+            width: 100%;
+        }
+    }
+    @media #{$mobile} {
+        height: auto;
+        .login-box{
+            width: auto;
+        }
+        .p-5{
+            padding: 20px !important;
+        }
+    }
+}

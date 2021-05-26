@@ -1,0 +1,109 @@
+@import "../../utils//constants.scss";
+
+#homeslider {
+  margin: 1rem 0;
+  .slick-list {
+    padding: 2.25rem 0 !important;
+    .rectangle {
+      background-color: $primary-color;
+      color: $white-color;
+      flex-direction: column !important;
+      padding: 2rem;
+      transition: 0.3s;
+      svg {
+        margin-bottom: 0.4rem;
+        color: $black-color;
+      }
+      h4 {
+        font-weight: $medium;
+        font-size: 1.2rem;
+        margin-bottom: 0.6rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+      }
+      p {
+        font-size: 0.85rem;
+        line-height: 1.6rem;
+        margin-bottom: 0.5rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+      }
+    }
+    .slick-active.slick-center {
+      .rectangle {
+        background-color: $white-color;
+        color: $black-color;
+        @include boxshadow(4px 2px 4px rgba(0, 0, 0, 0.25));
+        position: relative;
+        height: 306px;
+        top: -30px;
+      }
+    }
+  }
+  .slick-arrow {
+    position: absolute;
+    z-index: 11;
+    &.slick-prev {
+      left: 8px;
+    }
+    &.slick-next {
+      right: 10px;
+    }
+  }
+  // Media query start
+  @media #{$tablet} {
+    .slick-list {
+      padding: 1rem 0 !important;
+      .rectangle {
+        padding: 1rem 1.5rem;
+        h4 {
+          font-size: 0.875rem;
+        }
+        p {
+          font-size: 0.65rem;
+          line-height: 1.2rem;
+        }
+      }
+      .slick-active.slick-center .rectangle {
+        height: 210px;
+        top: -15px;
+      }
+    }
+  }
+  @media #{$mobile} {
+    margin: 0;
+    .slick-list {
+      padding: 0 !important;
+      .rectangle {
+        padding: 2rem;
+        h4 {
+          font-size: 1rem;
+        }
+        p {
+          font-size: 0.85rem;
+          line-height: 1.4rem;
+        }
+      }
+      .slick-active.slick-center .rectangle {
+        height: auto;
+        top: auto;
+        background-color: $primary-color;
+        color: $white-color;
+      }
+    }
+    .slick-arrow {
+      &.slick-prev {
+        left: 4px;
+      }
+      &.slick-next {
+        right: 4px;
+      }
+    }
+  }
+}

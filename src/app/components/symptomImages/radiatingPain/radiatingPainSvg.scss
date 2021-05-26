@@ -1,0 +1,60 @@
+// // .dotted:hover .dark-itch {
+// //   display: block;
+// // }
+
+// .parent .dotted {
+//   display: none;
+// }
+
+// .parent:hover .dotted {
+//   display: block;
+// }
+
+// .squiggle {
+//   stroke-dasharray: 450;
+//   stroke-dashoffset: 450;
+//   animation: draw 2s linear forwards;
+// }
+
+// @keyframes draw {
+//   to {
+//     stroke-dashoffset: 0;
+//   }
+// }
+
+#Path-333,
+#Path-31-2,
+#Path-32-2,
+#Path-41,
+#Path-42,
+#Path-43 {
+  stroke-dasharray: 170;
+  -webkit-animation: animate1 5s infinite linear; /* Chrome, Safari, Opera */
+  animation: animate1 5s infinite linear;
+  pointer-events: none;
+  -webkit-transition: all 0.1s ease;
+}
+
+@-moz-keyframes animate1 {
+  to {
+    stroke-dashoffset: -1000;
+  }
+}
+
+@-webkit-keyframes animate1 {
+  to {
+    stroke-dashoffset: -1000;
+  }
+}
+
+@keyframes animate1 {
+  to {
+    stroke-dashoffset: -1000;
+  }
+}
+
+.container a:hover #path1 {
+  -webkit-animation: animate1 3s infinite linear;
+  animation: animate1 3s infinite linear;
+  -webkit-transition: all 0.7s ease;
+}

@@ -1,0 +1,587 @@
+[
+  {
+    "symptoms": [
+      {
+        "name": "Cough",
+        "id": "02b01de1-c2fb-45bd-ab50-f1c0fa2b0126",
+        "type": "SYMPTOM"
+      },
+      {
+        "name": "Fever",
+        "id": "24977f30-71e4-43b4-9f1a-6f0f34b412a1",
+        "type": "SYMPTOM"
+      }
+    ],
+    "qna": [],
+    "heuristicData": [
+      {
+        "id": "066650b5-8815-426f-b6de-6d85defaa09d",
+        "name": "Acute lung abscess",
+        "score": 0.828
+      },
+      {
+        "id": "f5f97df8-65ed-4a18-ab4f-6d10f5a04b21",
+        "name": "Pulmonary tuberculosis",
+        "score": 0.816
+      },
+      {
+        "id": "594e5f54-cde3-481f-a58a-a6cda531ad2f",
+        "name": "Pneumonia",
+        "score": 0.79
+      },
+      {
+        "id": "a96c4f03-79bf-4015-ad9e-9f98b16877a5",
+        "name": "Hypersensitivity pneumonitis",
+        "score": 0.786
+      },
+      {
+        "id": "33bba4a3-4779-472f-8fad-876f0eeb7f82",
+        "name": "Acute bronchitis",
+        "score": 0.772
+      },
+      {
+        "id": "25e76036-d4f4-4358-88c7-661363422d08",
+        "name": "Covid-19",
+        "score": 0.722
+      },
+      {
+        "id": "c93d25d9-de3b-436e-95f1-a90c7e8719a5",
+        "name": "Bronchiectasis",
+        "score": 0.718
+      },
+      {
+        "id": "02f4bfed-e372-477b-a5dd-0981cfd8288b",
+        "name": "Measles",
+        "score": 0.664
+      },
+      {
+        "id": "d6b2df89-6b62-4891-97fb-d149f2d47bde",
+        "name": "Lower respiratory tract disease",
+        "score": 0.636
+      },
+      {
+        "id": "3621edb3-2ae0-437c-bdc8-9bed8f12e06b",
+        "name": "Chronic bronchitis",
+        "score": 0.626
+      },
+      {
+        "id": "f5094ab6-dd55-431e-891d-0444910a66c6",
+        "name": "Upper respiratory tract infections",
+        "score": 0.582
+      },
+      {
+        "id": "720baffa-d284-4422-8510-aff8f773a448",
+        "name": "Acute liver abscess",
+        "score": 0.481
+      },
+      {
+        "id": "e0bf37f2-c3a5-42f8-8661-64b76a287062",
+        "name": "Lymphoma",
+        "score": 0.475
+      },
+      {
+        "id": "d41e42dd-6ae8-4c31-8310-724aaf17a939",
+        "name": "Occupational lung disease",
+        "score": 0.463
+      },
+      {
+        "id": "cc0fcc1d-05ed-4ea2-bf73-344fe40869d8",
+        "name": "Typhoid fever",
+        "score": 0.459
+      }
+    ],
+    "modifiedHeuristicData": [
+      {
+        "id": "f5f97df8-65ed-4a18-ab4f-6d10f5a04b21",
+        "name": "Pulmonary tuberculosis",
+        "score": 0.816
+      },
+      {
+        "id": "594e5f54-cde3-481f-a58a-a6cda531ad2f",
+        "name": "Pneumonia",
+        "score": 0.79
+      },
+      {
+        "id": "066650b5-8815-426f-b6de-6d85defaa09d",
+        "name": "Acute lung abscess",
+        "score": 0.828
+      },
+      {
+        "id": "a96c4f03-79bf-4015-ad9e-9f98b16877a5",
+        "name": "Hypersensitivity pneumonitis",
+        "score": 0.786
+      },
+      {
+        "id": "33bba4a3-4779-472f-8fad-876f0eeb7f82",
+        "name": "Acute bronchitis",
+        "score": 0.772
+      },
+      {
+        "id": "25e76036-d4f4-4358-88c7-661363422d08",
+        "name": "Covid-19",
+        "score": 0.722
+      },
+      {
+        "id": "c93d25d9-de3b-436e-95f1-a90c7e8719a5",
+        "name": "Bronchiectasis",
+        "score": 0.718
+      },
+      {
+        "id": "02f4bfed-e372-477b-a5dd-0981cfd8288b",
+        "name": "Measles",
+        "score": 0.664
+      },
+      {
+        "id": "d6b2df89-6b62-4891-97fb-d149f2d47bde",
+        "name": "Lower respiratory tract disease",
+        "score": 0.636
+      },
+      {
+        "id": "3621edb3-2ae0-437c-bdc8-9bed8f12e06b",
+        "name": "Chronic bronchitis",
+        "score": 0.626
+      },
+      {
+        "id": "f5094ab6-dd55-431e-891d-0444910a66c6",
+        "name": "Upper respiratory tract infections",
+        "score": 0.582
+      },
+      {
+        "id": "720baffa-d284-4422-8510-aff8f773a448",
+        "name": "Acute liver abscess",
+        "score": 0.481
+      },
+      {
+        "id": "e0bf37f2-c3a5-42f8-8661-64b76a287062",
+        "name": "Lymphoma",
+        "score": 0.475
+      },
+      {
+        "id": "d41e42dd-6ae8-4c31-8310-724aaf17a939",
+        "name": "Occupational lung disease",
+        "score": 0.463
+      },
+      {
+        "id": "cc0fcc1d-05ed-4ea2-bf73-344fe40869d8",
+        "name": "Typhoid fever",
+        "score": 0.459
+      }
+    ],
+    "feedback": "Textual feedback provided"
+  },
+  {
+    "symptoms": [],
+    "qna": [
+      {
+        "symptomId": "5657676s8790",
+        "questions": [
+          {
+            "question": {
+              "text": "For how long do you have cough?",
+              "id": "98d52428-491d-4585-8955-cfba6164a09d"
+            },
+            "answer": [
+              {
+                "text": "Less than 3 weeks",
+                "id": "b0cf8701-4f18-4988-aa35-84d986af3abc"
+              }
+            ],
+            "heuristic": [],
+            "modifiedHeuristic": []
+          },
+          {
+            "question": {
+              "text": "What type of cough do you have?",
+              "id": "5a9ce821-b4e2-45fe-bcbb-821905e54827"
+            },
+            "answer": [
+              {
+                "text": "Dry ",
+                "id": "2f1e5490-d2a8-46a7-8df3-f3d38e2fbf3c"
+              }
+            ]
+          },
+          {
+            "question": {
+              "text": "Which pattern best describes your cough?",
+              "id": "772a089d-d3a9-4b32-8705-b268452ab073"
+            },
+            "answer": [
+              {
+                "text": "Persistent ",
+                "id": "e7fb8986-062f-4224-a102-7d8796405ad5"
+              }
+            ]
+          },
+          {
+            "question": {
+              "text": "When does your cough worsen?",
+              "id": "4f297249-09ab-476e-a063-6b8dfefb85f7"
+            },
+            "answer": [
+              {
+                "text": "Exercise or exposure to cold air",
+                "id": "969359f4-a62a-460c-a8b0-99b46c6abbd7"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "symptomId": "5657676s8790",
+        "questions": [
+          {
+            "question": {
+              "text": "How much fever do you have?",
+              "id": "aa09bc81-c242-492a-964f-b2995c9b06e8"
+            },
+            "answer": [
+              {
+                "text": "Between 99 - 100.4⁰F (37.2 - 38⁰C)",
+                "id": "a8033b46-3f33-4894-904e-1af1f234ddc2"
+              }
+            ]
+          },
+          {
+            "question": {
+              "text": "Since how long do you have fever?",
+              "id": "98d52428-491d-4585-8955-cfba6164a09d"
+            },
+            "answer": [
+              {
+                "text": "Less than 2 days",
+                "id": "b0cf8701-4f18-4988-aa35-84d986af3abc"
+              }
+            ]
+          },
+          {
+            "question": {
+              "text": "Which pattern best describes your fever?",
+              "id": "772a089d-d3a9-4b32-8705-b268452ab073"
+            },
+            "answer": [
+              {
+                "text": "Continuous ",
+                "id": "58c63e78-beb6-483e-827e-a15b24057218"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "heuristicData": [
+      {
+        "id": "5c026687-d26f-426d-a280-7da2af79df21",
+        "name": "Bacillary dysentery",
+        "score": 0.687
+      },
+      {
+        "id": "2ec39521-1ccf-472a-8719-b800b0cada2c",
+        "name": "Cold sore",
+        "score": 0.339
+      },
+      {
+        "id": "25e76036-d4f4-4358-88c7-661363422d08",
+        "name": "Covid-19",
+        "score": 0.252
+      },
+      {
+        "id": "93afe643-c631-41bd-84de-8df92db738a7",
+        "name": "Foreign body aspiration",
+        "score": 0.234
+      },
+      {
+        "id": "594e5f54-cde3-481f-a58a-a6cda531ad2f",
+        "name": "Pneumonia",
+        "score": 0.224
+      },
+      {
+        "id": "f79435ac-14a6-4f35-81e8-91e58bea49af",
+        "name": "Herpes zoster",
+        "score": 0.217
+      },
+      {
+        "id": "c1033579-0f92-450b-a469-adc33e00b0d3",
+        "name": "Testicular torsion (Male)",
+        "score": 0.184
+      },
+      {
+        "id": "e1179b5b-99c4-42ee-97d4-c9931f9d3aea",
+        "name": "Anorectal abscess",
+        "score": 0.137
+      },
+      {
+        "id": "034068d4-c5eb-46c5-b2b4-c25f74f02b4b",
+        "name": "Asthma",
+        "score": 0.13
+      },
+      {
+        "id": "f5094ab6-dd55-431e-891d-0444910a66c6",
+        "name": "Upper respiratory tract infections",
+        "score": 0.13
+      },
+      {
+        "id": "c123f6cd-f746-45a6-b418-c3f9489ca87e",
+        "name": "Viral fever",
+        "score": 0.126
+      },
+      {
+        "id": "c5c7162a-7d0d-49ff-9a74-dad9553e4129",
+        "name": "Amoebic dysentery",
+        "score": 0.122
+      },
+      {
+        "id": "33bba4a3-4779-472f-8fad-876f0eeb7f82",
+        "name": "Acute bronchitis",
+        "score": 0.119
+      },
+      {
+        "id": "053cd465-0e00-44ba-9e07-e2020851ae8a",
+        "name": "Acute viral hepatitis",
+        "score": 0.11
+      },
+      {
+        "id": "7197374b-4776-419e-ab8c-0324ea354a4f",
+        "name": "Systemic lupus erythematous",
+        "score": 0.103
+      }
+    ],
+    "modifiedHeuristicData": [
+      {
+        "id": "5c026687-d26f-426d-a280-7da2af79df21",
+        "name": "Bacillary dysentery",
+        "score": 0.687
+      },
+      {
+        "id": "2ec39521-1ccf-472a-8719-b800b0cada2c",
+        "name": "Cold sore",
+        "score": 0.339
+      },
+      {
+        "id": "25e76036-d4f4-4358-88c7-661363422d08",
+        "name": "Covid-19",
+        "score": 0.252
+      },
+      {
+        "id": "93afe643-c631-41bd-84de-8df92db738a7",
+        "name": "Foreign body aspiration",
+        "score": 0.234
+      },
+      {
+        "id": "594e5f54-cde3-481f-a58a-a6cda531ad2f",
+        "name": "Pneumonia",
+        "score": 0.224
+      },
+      {
+        "id": "f79435ac-14a6-4f35-81e8-91e58bea49af",
+        "name": "Herpes zoster",
+        "score": 0.217
+      },
+      {
+        "id": "c1033579-0f92-450b-a469-adc33e00b0d3",
+        "name": "Testicular torsion (Male)",
+        "score": 0.184
+      },
+      {
+        "id": "e1179b5b-99c4-42ee-97d4-c9931f9d3aea",
+        "name": "Anorectal abscess",
+        "score": 0.137
+      },
+      {
+        "id": "034068d4-c5eb-46c5-b2b4-c25f74f02b4b",
+        "name": "Asthma",
+        "score": 0.13
+      },
+      {
+        "id": "f5094ab6-dd55-431e-891d-0444910a66c6",
+        "name": "Upper respiratory tract infections",
+        "score": 0.13
+      },
+      {
+        "id": "c123f6cd-f746-45a6-b418-c3f9489ca87e",
+        "name": "Viral fever",
+        "score": 0.126
+      },
+      {
+        "id": "c5c7162a-7d0d-49ff-9a74-dad9553e4129",
+        "name": "Amoebic dysentery",
+        "score": 0.122
+      },
+      {
+        "id": "33bba4a3-4779-472f-8fad-876f0eeb7f82",
+        "name": "Acute bronchitis",
+        "score": 0.119
+      },
+      {
+        "id": "053cd465-0e00-44ba-9e07-e2020851ae8a",
+        "name": "Acute viral hepatitis",
+        "score": 0.11
+      },
+      {
+        "id": "7197374b-4776-419e-ab8c-0324ea354a4f",
+        "name": "Systemic lupus erythematous",
+        "score": 0.103
+      }
+    ],
+    "feedback": "Textual feedback provided"
+  },
+  {
+    "symptoms": [],
+    "qna": [],
+    "heuristicData": [
+      {
+        "id": "5c026687-d26f-426d-a280-7da2af79df21",
+        "name": "Bacillary dysentery",
+        "score": 0.687
+      },
+      {
+        "id": "2ec39521-1ccf-472a-8719-b800b0cada2c",
+        "name": "Cold sore",
+        "score": 0.339
+      },
+      {
+        "id": "25e76036-d4f4-4358-88c7-661363422d08",
+        "name": "Covid-19",
+        "score": 0.252
+      },
+      {
+        "id": "93afe643-c631-41bd-84de-8df92db738a7",
+        "name": "Foreign body aspiration",
+        "score": 0.234
+      },
+      {
+        "id": "594e5f54-cde3-481f-a58a-a6cda531ad2f",
+        "name": "Pneumonia",
+        "score": 0.224
+      },
+      {
+        "id": "f79435ac-14a6-4f35-81e8-91e58bea49af",
+        "name": "Herpes zoster",
+        "score": 0.217
+      },
+      {
+        "id": "c1033579-0f92-450b-a469-adc33e00b0d3",
+        "name": "Testicular torsion (Male)",
+        "score": 0.184
+      },
+      {
+        "id": "e1179b5b-99c4-42ee-97d4-c9931f9d3aea",
+        "name": "Anorectal abscess",
+        "score": 0.137
+      },
+      {
+        "id": "034068d4-c5eb-46c5-b2b4-c25f74f02b4b",
+        "name": "Asthma",
+        "score": 0.13
+      },
+      {
+        "id": "f5094ab6-dd55-431e-891d-0444910a66c6",
+        "name": "Upper respiratory tract infections",
+        "score": 0.13
+      },
+      {
+        "id": "c123f6cd-f746-45a6-b418-c3f9489ca87e",
+        "name": "Viral fever",
+        "score": 0.126
+      },
+      {
+        "id": "c5c7162a-7d0d-49ff-9a74-dad9553e4129",
+        "name": "Amoebic dysentery",
+        "score": 0.122
+      },
+      {
+        "id": "33bba4a3-4779-472f-8fad-876f0eeb7f82",
+        "name": "Acute bronchitis",
+        "score": 0.119
+      },
+      {
+        "id": "053cd465-0e00-44ba-9e07-e2020851ae8a",
+        "name": "Acute viral hepatitis",
+        "score": 0.11
+      },
+      {
+        "id": "7197374b-4776-419e-ab8c-0324ea354a4f",
+        "name": "Systemic lupus erythematous",
+        "score": 0.103
+      }
+    ],
+    "modifiedHeuristicData": [
+      {
+        "id": "02f4bfed-e372-477b-a5dd-0981cfd8288b",
+        "name": "Measles",
+        "score": 0.102
+      },
+      {
+        "id": "a96c4f03-79bf-4015-ad9e-9f98b16877a5",
+        "name": "Hypersensitivity pneumonitis",
+        "score": 0.094
+      },
+      {
+        "id": "066650b5-8815-426f-b6de-6d85defaa09d",
+        "name": "Acute lung abscess",
+        "score": 0.092
+      },
+      {
+        "id": "541ec8d9-ee58-4984-8d21-9f49eb2bacb2",
+        "name": "ACE inhibitor induced cough",
+        "score": 0.084
+      },
+      {
+        "id": "720baffa-d284-4422-8510-aff8f773a448",
+        "name": "Acute liver abscess",
+        "score": 0.076
+      },
+      {
+        "id": "c93d25d9-de3b-436e-95f1-a90c7e8719a5",
+        "name": "Bronchiectasis",
+        "score": 0.074
+      },
+      {
+        "id": "0123b8ae-7a83-44b8-b525-d30adfa45066",
+        "name": "Acute cholangitis",
+        "score": 0.07
+      },
+      {
+        "id": "cc0fcc1d-05ed-4ea2-bf73-344fe40869d8",
+        "name": "Typhoid fever",
+        "score": 0.068
+      },
+      {
+        "id": "e925b71c-2529-4679-92d1-32cdf3c749d9",
+        "name": "Encephalitis",
+        "score": 0.067
+      },
+      {
+        "id": "a991be38-fd07-4486-9bb5-b2faebdb573f",
+        "name": "Acute tonsillitis",
+        "score": 0.065
+      },
+      {
+        "id": "8dc37556-b81e-4d70-9d1f-d93edca3347f",
+        "name": "Acute appendicitis",
+        "score": 0.063
+      },
+      {
+        "id": "3621edb3-2ae0-437c-bdc8-9bed8f12e06b",
+        "name": "Chronic bronchitis",
+        "score": 0.063
+      },
+      {
+        "id": "72ea4041-199b-4882-a50a-7b8286bd2684",
+        "name": "Meningitis",
+        "score": 0.062
+      },
+      {
+        "id": "fd208664-fd3b-43be-8f85-b4932c43e751",
+        "name": "Dengue fever",
+        "score": 0.062
+      },
+      {
+        "id": "3feb06ed-faff-4b87-911d-f0d585f79827",
+        "name": "Acute gastroenteritis",
+        "score": 0.061
+      }
+    ],
+    "feedback": "Textual feedback provided"
+  }
+]

@@ -1,0 +1,37 @@
+@import '../../utils/constants.scss';
+.cardbox{
+    .box{
+        background-color: $white-color;
+        border-radius: 6px;
+        cursor: pointer;
+        @include boxshadow(0px 3px 6px #00000029);
+        margin-bottom: 24px;
+        transition: .3s;
+        .profile-image{
+            height: 168px;
+            padding: 16px;
+        }
+        .profile-content{
+            padding: 24px;
+            h6{
+                font-size: 15px;
+                font-weight: $medium;
+            }
+            p{
+                // color: $text-light-color;
+                font-size: 15px;
+                line-height: 21px;
+                .circle{
+                    background-color: $green-color;
+                    border-radius: 50%;
+                    height: 22px;
+                    width: 22px;
+                }
+            }
+        }
+        &:hover{
+            border-color: transparent;
+            @include boxshadow( 0px 10px 6px #00000029);
+        }
+    }
+}

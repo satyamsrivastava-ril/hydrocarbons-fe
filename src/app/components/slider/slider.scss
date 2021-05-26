@@ -1,0 +1,39 @@
+// @import '../../utils/constants.scss';
+// .rc-slider {
+//   display: flex;
+//   width: 67%;
+//   padding: 0;
+//   align-items: center;
+//   .rc-slider-rail {
+//     background: $progressbar-color;
+//     border-radius: 5px;
+//     height: 0.75rem;
+//     .rc-slider-track {
+//       background-color: $primary-color;
+//       height: 0.75rem;
+//     }
+//     .rc-slider-step {
+//       border-radius: 5px;
+//       background: $primary-color;
+//       height: 0.75rem;
+//     }
+//   }
+//   .rc-slider-track {
+//     background-color: $primary-color;
+//     height: 0.75rem;
+//   }
+//   .rc-slider-handle {
+//     height: 20px;
+//     width: 20px;
+//     margin-top: -4px;
+//   }
+// }
+// .rc-slider-handle {
+//   border-color: $primary-color;
+//   background: $primary-color !important;
+// }
+// @media #{$mobile} {
+//   .rc-slider {
+//     width: 100%;
+//   }
+// }

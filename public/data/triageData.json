@@ -1,0 +1,322 @@
+
+  {
+    "userId": "999",
+    "sessionId": "888",
+    "isDiagnosisComplete": false,
+    "diagnosis": "null",
+    "questions": [
+      {
+        "symptomName": "Fever",
+        "$symptomId": "111",
+        "questionType": "Attribute",
+        "selection": [
+          {
+            "id": "11",
+            "text": "How much fever do you have?",
+            "options": [
+                    {
+                      "text": "Between 99 - 100.4⁰F (37.2 - 38⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#fd9e9e42-f761-4039-9f25-5d418236dec6"
+                    },
+                    {
+                      "text": "Between 100.4 - 103.9⁰F (38-39.9⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#acc94281-10e1-4075-b381-ba7acd95a127"
+                    },
+                    {
+                      "text": "Between 104-106.7⁰F (40-41.5⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#9fd221e0-9128-4960-a4ed-1c1b12f530b6"
+                    },
+                    {
+                      "text": "More than 106.7ᵒF (>41.5ᵒC)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#e5136afa-baf5-4b1d-982b-d9fe9740e67f"
+                    }
+
+            ],
+            "optionType": "single-select"
+          },
+          {
+            "id": "12",
+            "text": "How much fever do you have?",
+            "options": [
+                    {
+                      "text": "Between 99 - 100.4⁰F (37.2 - 38⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#fd9e9e42-f761-4039-9f25-5d418236dec6"
+                    },
+                    {
+                      "text": "Between 100.4 - 103.9⁰F (38-39.9⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#acc94281-10e1-4075-b381-ba7acd95a127"
+                    },
+                    {
+                      "text": "Between 104-106.7⁰F (40-41.5⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#9fd221e0-9128-4960-a4ed-1c1b12f530b6"
+                    },
+                    {
+                      "text": "More than 106.7ᵒF (>41.5ᵒC)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#e5136afa-baf5-4b1d-982b-d9fe9740e67f"
+                    }
+
+            ],
+            "optionType": "single-select"
+          },
+          {
+            "id": "13",
+            "text": "Which pattern best describes your fever?",
+            "options": [
+                    {
+                      "text": "Continuous ",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#3890e3d3-2f9f-4a5c-97e3-2f065e45121c"
+                    },
+                    {
+                      "text": "On & off or intermittent",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#c59a55cc-c6b3-4830-9a1d-912a7cbb324d"
+                    },
+                    {
+                      "text": "Occuring every 48 or 72 hours",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#aec3dfa9-e89e-4150-b51b-6469459b0be4"
+                    },
+                    {
+                      "text": "Evening rise",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#f4e1524a-3d6f-4d6c-b541-e861c6101f81"
+                    }                  
+            ],
+            "optionType": "multi-select"
+          }
+        ]
+      },
+      {
+        "symptomName": "Cough",
+        "$symptomId": "222",
+        "questionType": "Attribute",
+        "selection": [
+          {
+            "id": "11",
+            "text": "How much cough do you have?",
+            "options": [
+                    {
+                      "text": "Between 99 - 100.4⁰F (37.2 - 38⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#fd9e9e42-f761-4039-9f25-5d418236dec6"
+                    },
+                    {
+                      "text": "Between 100.4 - 103.9⁰F (38-39.9⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#acc94281-10e1-4075-b381-ba7acd95a127"
+                    },
+                    {
+                      "text": "Between 104-106.7⁰F (40-41.5⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#9fd221e0-9128-4960-a4ed-1c1b12f530b6"
+                    },
+                    {
+                      "text": "More than 106.7ᵒF (>41.5ᵒC)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#e5136afa-baf5-4b1d-982b-d9fe9740e67f"
+                    }
+
+            ],
+            "optionType": "single-select"
+          },
+          {
+            "id": "12",
+            "text": "How much cough do you have?",
+            "options": [
+                    {
+                      "text": "Between 99 - 100.4⁰F (37.2 - 38⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#fd9e9e42-f761-4039-9f25-5d418236dec6"
+                    },
+                    {
+                      "text": "Between 100.4 - 103.9⁰F (38-39.9⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#acc94281-10e1-4075-b381-ba7acd95a127"
+                    },
+                    {
+                      "text": "Between 104-106.7⁰F (40-41.5⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#9fd221e0-9128-4960-a4ed-1c1b12f530b6"
+                    },
+                    {
+                      "text": "More than 106.7ᵒF (>41.5ᵒC)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#e5136afa-baf5-4b1d-982b-d9fe9740e67f"
+                    }
+
+            ],
+            "optionType": "single-select"
+          },
+          {
+            "id": "13",
+            "text": "Which pattern best describes your cough?",
+            "options": [
+                    {
+                      "text": "Continuous ",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#3890e3d3-2f9f-4a5c-97e3-2f065e45121c"
+                    },
+                    {
+                      "text": "On & off or intermittent",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#c59a55cc-c6b3-4830-9a1d-912a7cbb324d"
+                    },
+                    {
+                      "text": "Occuring every 48 or 72 hours",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#aec3dfa9-e89e-4150-b51b-6469459b0be4"
+                    },
+                    {
+                      "text": "Evening rise",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#f4e1524a-3d6f-4d6c-b541-e861c6101f81"
+                    }                  
+            ],
+            "optionType": "multi-select"
+          }
+        ]
+      },
+      {
+        "symptomName": "Chest pain",
+        "$symptomId": "333",
+        "questionType": "Attribute",
+        "selection": [
+          {
+            "id": "11",
+            "text": "How much chest pain do you have?",
+            "options": [
+                    {
+                      "text": "Between 99 - 100.4⁰F (37.2 - 38⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#fd9e9e42-f761-4039-9f25-5d418236dec6"
+                    },
+                    {
+                      "text": "Between 100.4 - 103.9⁰F (38-39.9⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#acc94281-10e1-4075-b381-ba7acd95a127"
+                    },
+                    {
+                      "text": "Between 104-106.7⁰F (40-41.5⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#9fd221e0-9128-4960-a4ed-1c1b12f530b6"
+                    },
+                    {
+                      "text": "More than 106.7ᵒF (>41.5ᵒC)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#e5136afa-baf5-4b1d-982b-d9fe9740e67f"
+                    }
+
+            ],
+            "optionType": "single-select"
+          },
+          {
+            "id": "12",
+            "text": "How much chest pain do you have?",
+            "options": [
+                    {
+                      "text": "Between 99 - 100.4⁰F (37.2 - 38⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#fd9e9e42-f761-4039-9f25-5d418236dec6"
+                    },
+                    {
+                      "text": "Between 100.4 - 103.9⁰F (38-39.9⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#acc94281-10e1-4075-b381-ba7acd95a127"
+                    },
+                    {
+                      "text": "Between 104-106.7⁰F (40-41.5⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#9fd221e0-9128-4960-a4ed-1c1b12f530b6"
+                    },
+                    {
+                      "text": "More than 106.7ᵒF (>41.5ᵒC)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#e5136afa-baf5-4b1d-982b-d9fe9740e67f"
+                    }
+
+            ],
+            "optionType": "single-select"
+          },
+          {
+            "id": "13",
+            "text": "Which pattern best describes your chest pain?",
+            "options": [
+                    {
+                      "text": "Continuous ",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#3890e3d3-2f9f-4a5c-97e3-2f065e45121c"
+                    },
+                    {
+                      "text": "On & off or intermittent",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#c59a55cc-c6b3-4830-9a1d-912a7cbb324d"
+                    },
+                    {
+                      "text": "Occuring every 48 or 72 hours",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#aec3dfa9-e89e-4150-b51b-6469459b0be4"
+                    },
+                    {
+                      "text": "Evening rise",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#f4e1524a-3d6f-4d6c-b541-e861c6101f81"
+                    }                  
+            ],
+            "optionType": "multi-select"
+          }
+        ]
+      },
+      {
+        "symptomName": "Headache",
+        "$symptomId": "333",
+        "questionType": "Attribute",
+        "selection": [
+          {
+            "id": "11",
+            "text": "How much Headache do you have?",
+            "options": [
+                    {
+                      "text": "Between 99 - 100.4⁰F (37.2 - 38⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#fd9e9e42-f761-4039-9f25-5d418236dec6"
+                    },
+                    {
+                      "text": "Between 100.4 - 103.9⁰F (38-39.9⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#acc94281-10e1-4075-b381-ba7acd95a127"
+                    },
+                    {
+                      "text": "Between 104-106.7⁰F (40-41.5⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#9fd221e0-9128-4960-a4ed-1c1b12f530b6"
+                    },
+                    {
+                      "text": "More than 106.7ᵒF (>41.5ᵒC)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#e5136afa-baf5-4b1d-982b-d9fe9740e67f"
+                    }
+
+            ],
+            "optionType": "single-select"
+          },
+          {
+            "id": "12",
+            "text": "How much Headache do you have?",
+            "options": [
+                    {
+                      "text": "Between 99 - 100.4⁰F (37.2 - 38⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#fd9e9e42-f761-4039-9f25-5d418236dec6"
+                    },
+                    {
+                      "text": "Between 100.4 - 103.9⁰F (38-39.9⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#acc94281-10e1-4075-b381-ba7acd95a127"
+                    },
+                    {
+                      "text": "Between 104-106.7⁰F (40-41.5⁰C)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#9fd221e0-9128-4960-a4ed-1c1b12f530b6"
+                    },
+                    {
+                      "text": "More than 106.7ᵒF (>41.5ᵒC)",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#0c63e00b-8fb1-4162-8168-ae7dc48c3164#e5136afa-baf5-4b1d-982b-d9fe9740e67f"
+                    }
+
+            ],
+            "optionType": "single-select"
+          },
+          {
+            "id": "13",
+            "text": "Which pattern best describes your Headache?",
+            "options": [
+                    {
+                      "text": "Continuous ",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#3890e3d3-2f9f-4a5c-97e3-2f065e45121c"
+                    },
+                    {
+                      "text": "On & off or intermittent",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#c59a55cc-c6b3-4830-9a1d-912a7cbb324d"
+                    },
+                    {
+                      "text": "Occuring every 48 or 72 hours",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#aec3dfa9-e89e-4150-b51b-6469459b0be4"
+                    },
+                    {
+                      "text": "Evening rise",
+                      "id": "0e0e5e84-35a0-4965-9638-4d13a68c05b7#766ba959-b273-4930-997e-a65a82936183#f4e1524a-3d6f-4d6c-b541-e861c6101f81"
+                    }                  
+            ],
+            "optionType": "multi-select"
+          }
+        ]
+      }
+    ]
+   
+  }

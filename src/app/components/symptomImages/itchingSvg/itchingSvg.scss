@@ -1,0 +1,25 @@
+@import "../../../utils/constants.scss";
+
+.itch {
+  transition: 1s all;
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+}
+
+.itch:hover {
+  // stroke:  !important;
+  stroke-width: 0 !important;
+  transform: scale(1.1, 1.1);
+}
+
+.dark-itch {
+  display: none;
+}
+
+.itch:hover .light-itch {
+  display: none;
+}
+
+.itch:hover .dark-itch {
+  display: block;
+}

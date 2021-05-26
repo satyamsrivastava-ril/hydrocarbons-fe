@@ -1,0 +1,70 @@
+@import "../../utils/constants.scss";
+header {
+    padding: 26px 42px;
+    @include boxshadow(0px 1px 4px #00000029);
+    position: relative;
+    z-index: 99999;
+    ul{
+      li{
+        svg{
+          width: 100%;
+          height: 100%;
+        }
+        .notification{
+          background-color: $orange-color;
+          border-radius: 50%;
+          height: 10px;
+          width: 10px;
+          right: 2px;
+          top: 0;
+        }
+        .profile{
+          // background-color: $text-color;
+          // border: 1px solid $border-color;
+          border-radius: 50%;
+          height: 40px;
+          width: 40px;
+        }
+      }
+    }
+    .header-box{
+      a{
+        font-size:24px;
+        font-family: $raleway;
+        font-weight: $light;
+        svg{
+          margin-right: 20px;
+        }
+      }
+     
+    }
+}
+@media #{$tablet} {
+  header {
+    padding: 20px 15px;
+  }
+}
+@media #{$mobile} {
+    header {
+      padding: 20px 15px;
+      .header-box a {
+        font-size: 22px;
+      }
+      ul li {
+          svg{
+            width: 25px;
+            height: 25px;
+          }
+          span svg{
+            width: 100%;
+            height: 100%;
+          }
+        .notification{
+            height: 6px;
+            width: 6px;
+            right: 3px;
+            top: 7px;
+        }
+      }
+    }
+}

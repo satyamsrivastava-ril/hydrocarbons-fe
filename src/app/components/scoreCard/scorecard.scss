@@ -1,0 +1,58 @@
+@import '../../utils/constants.scss';
+.scoreboard{
+    .box{
+    //  border: 1px solid $border-color;
+     @include boxshadow(0px 3px 6px #00000029);
+     height: 154px;
+     padding: 24px;
+     margin-bottom: 26px;
+     .circle{
+       border-radius: 50%;
+       background-color: $orange-color;
+       height: 50px;
+       margin-top: 8px;
+       margin-right: 16px;
+       width: 50px;
+       svg{
+         width: 25px;
+         height: 25px;
+       }
+     }
+     h1{
+       font-size: 48px;
+       font-weight: $light;
+     }
+     p{
+      //  color: $text-light-color;
+       font-size: 15px;
+     }
+   }
+   @media #{$tablet}{
+      .box{
+        height: 120px;
+        padding: 10px;
+        .circle{
+          width: 30px;
+          height: 30px;
+          svg {
+            width: 15px;
+            height: 15px;
+          }
+        }
+        h1 {
+          font-size: 30px;
+        }
+        p{
+          font-size: 15px;
+          line-height: 18px;
+        }
+      }
+    }
+   @media #{$mobile}{
+     .box{
+      height: 136px;
+      padding: 20px;
+      margin-bottom: 20px;
+     }
+   }
+}

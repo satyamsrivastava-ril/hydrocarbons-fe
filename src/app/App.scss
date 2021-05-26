@@ -1,0 +1,61 @@
+@import "./utils/constants.scss";
+// Common Styles
+body {
+  font-family: $lato;
+  font-size: 16px;
+  font-weight: $regular;
+  line-height: 22px;
+}
+a {
+  color: inherit;
+  transition: 0.3s;
+  text-decoration: none !important;
+  &:focus {
+    outline-style: solid;
+    outline-color: #a6d5fa;
+    outline-width: 2px;
+    box-shadow: 0 0 0 0.2rem rgba(255,147,0 , 0.5); 
+  }
+}
+
+.btn-primary{
+  // border: 1px solid $orange-color !important;
+  @include button-primary ($orange-color,$orange-color,3px,$white-color,18px,$medium,22px);
+  padding: 16px;
+  width: 226px;
+  &:hover{
+    background-color: #dc7f01;
+  }
+}
+.btn-secondary{
+  background-color: transparent;
+  color: $orange-color;
+
+}
+.btn{
+  font-size: 16px;
+  text-transform: uppercase;
+  border: 1px solid $black-color; 
+  height: 50px;
+  padding: 2px 43px;
+  border-radius: 2px;
+}
+.btn-fill{
+  background-color: $black-color;
+  color: $white-color;
+  &:hover{
+    background-color: rgba($color: $black-color, $alpha: 0.95);
+    color: $white-color;
+  }
+}
+.btn-unfill{
+  background-color: $white-color;
+  color: $black-color;
+}
+@media #{$mobile} {
+  body {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+

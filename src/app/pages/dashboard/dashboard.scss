@@ -1,0 +1,318 @@
+@import '../../utils/constants.scss';
+.dashboard{
+  padding: 26px 52px;
+  // Home Tab view Changes
+  .tabs-hydro{
+    .p-tabview-nav{
+      border: 0;
+      border-width: 0;
+      margin-bottom: 28px;
+      li{
+        margin-right: 58px;
+        a{
+          border-width: 0 0 4px 0;
+          border-color: transparent;
+          font-weight: $regular;
+          color: $text-color;
+          font-family: $raleway;
+          padding: 6px 0;
+          text-transform: uppercase;
+        }
+        &.p-tabview-selected a{
+          border-color: $black-color;
+          color: $dark-text-color;
+          font-weight: $semibold;
+        }
+      }
+    }
+    .p-tabview-panels{
+      padding: 0;
+    }
+    .d-flex .p-tabview-nav{
+      margin-left: 24px;
+      margin-bottom: 0;
+      li{
+        a{
+          border-color: transparent !important;
+        }
+      }
+    }
+  }
+  .box-view{
+    background-color: $white-color;
+    @include boxshadow(0px 3px 6px #00000029);
+    border-radius: 30px;
+    padding: 28px 35px;
+    margin-bottom: 32px;
+    h6{
+      font-weight: $light;
+      margin-bottom: 28px;
+    }
+   
+    .p-dropdown{
+      height: 48px;
+      margin-bottom: 40px;
+      .close-icon{
+        color: $orange-color;
+        cursor: pointer;
+        position: absolute;
+        top: 2px;
+        right: 12px;
+      }
+    
+    }
+    .inside-box{
+      h5{
+        font-size: 14px;
+        font-weight: $light;
+        margin-bottom: 16px;
+      }
+     
+    }
+    .btn-circle{
+      background-color: $orange-color;
+      border-color: $orange-color;
+      color: $white-color;
+      height: 16px !important;
+      width: 23px !important;
+      border-radius: 50%;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .rc-slider{
+      margin: 0 12px;
+      padding: 0;
+      height: 8px;
+      .rc-slider-rail, .rc-slider-track{
+        height: 8px;
+      }
+      .rc-slider-rail{
+        background: rgb(224, 224, 224);
+        background: -moz-linear-gradient(0deg, rgb(224, 224, 224) 0%, rgb(160, 160, 160) 100%);
+        background: -webkit-linear-gradient(0deg, rgb(224, 224, 224) 0%, rgb(160, 160, 160) 100%);
+        background: -o-linear-gradient(0deg, rgb(224, 224, 224) 0%, rgb(160, 160, 160) 100%);
+        background: -ms-linear-gradient(0deg, rgb(224, 224, 224) 0%, rgb(160, 160, 160) 100%);
+        background: linear-gradient(90deg, rgb(224, 224, 224) 0%, rgb(160, 160, 160) 100%);
+
+      }
+      .rc-slider-track{
+        background-color: $orange-color;
+      }
+      .rc-slider-handle{
+        border-radius: 0;
+        width: 6px;
+        height: 16px;
+        background: $border-color;
+        border-color: $border-color;
+        @include boxshadow(0px 1px 2px rgba(0,0,0,.28));
+      }
+    }
+    // Blue Box What if Page
+    .sub-title{
+      // border-bottom: 1px solid $border-color;
+      color: $dark-text-color;
+      font-size: 18px;
+      font-weight: $light;
+      padding: 2px 0 16px;
+      // margin-bottom: 32px;
+      text-transform: uppercase;
+    }
+    .flow-box{
+      padding: 30px;
+      .three-one{
+        margin-bottom: 30px;
+        .active{
+          background-color: #E5FDFF;
+        }
+        .col-md-6{
+          width: 100%;
+          max-width: 100%;
+          padding: 16px 4px 0;
+          border-radius: 12px;
+          // @include boxshadow(0px 0px 8px rgba(0,0,0,.16));
+        }
+        .pin-value{
+          padding: 16px 4px;
+          ul{
+            li{
+              padding-right: 16px;
+              &:last-child{
+                padding-right: 0;
+                text-align: right;
+              }
+              .min-max{
+                .form-control{
+                  border: 0;
+                  background-color: rgba($color: $blue-color, $alpha: 0.40);
+                  font-weight: $light;
+                  font-size: 15px;
+                }
+                .arrows{
+                  top: 5px;
+                  right: 6px;
+                  svg{
+                    background-color: $white-color;
+                    display: block;
+                    margin-bottom: 3px;
+                    padding: 2px;
+                    font-size: 13px;
+                  }
+                }
+              }
+              &.pin{
+                svg{
+                  @include boxshadow(0px 1px 4px rgba(0,0,0,.16));
+                  background-color: $white-color;
+                  padding: 8px;
+                  height: 28px;
+                  width: 28px;
+                  border-radius: 50%;
+                }
+              }
+            }
+          }
+        }
+      }
+      .inside-box{
+        .rc-slider{
+          height: 10px;
+        }
+        .btn-circle {
+          height: 13px !important;
+          width: 18px !important;
+          font-size: 12px;
+          line-height: 12px;
+        }
+        .rc-slider .rc-slider-rail, .rc-slider .rc-slider-track {
+          height: 10px;
+        }
+        .rc-slider .rc-slider-handle {
+          width: 6px;
+          height: 16px;
+        }
+        .btn-circle {
+          height: 13px !important;
+          width: 18px !important;
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+    .blue-box{
+      // background-color:$light-blue-color;
+      border-top-left-radius: 30px;
+
+      .btn-circle{
+        background-color: $blue-color;
+        border-color: $blue-color;
+      }
+      .rc-slider .rc-slider-track{
+        background-color: $blue-color;
+      }
+    }
+    .orange-box{
+      // background-color: #FFFDF9;
+      // border-bottom-left-radius: 30px;
+
+    }
+    .green-box{
+      .btn-circle{
+        background-color: $light-green-color;
+        border-color: $light-green-color;
+      }
+      .rc-slider .rc-slider-track{
+        background-color: $light-green-color;
+      }
+    }
+    .output-box {
+      // background-color: #FDFFF8;
+      // border-top-right-radius: 30px;
+      // border-bottom-right-radius: 30px;
+      .btn-circle{
+        background-color: $yellow-color;
+        border-color: $yellow-color;
+      }
+      .rc-slider .rc-slider-track{
+        background-color: $yellow-color;
+      }
+    }
+  }
+  .pi-chevron-down:before{
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25.607' height='13.636' viewBox='0 0 25.607 13.636'%3E%3Cpath id='Polygon_9' data-name='Polygon 9' d='M12.075.776a1,1,0,0,1,1.458,0L24.026,11.952a1,1,0,0,1-.729,1.685H2.311a1,1,0,0,1-.729-1.685Z' transform='translate(25.607 13.636) rotate(180)' fill='%2382d925'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 14px;
+    position: absolute;
+    background-size: cover;
+    right: 8px;
+    top: 20px;
+  }
+  .p-dropdown{
+    background-color: $white-color;
+    @include boxshadow(0px 1px 6px rgba(0,0,0,.20));
+    width: 250px;
+    &:focus{
+      @include boxshadow(0px 1px 6px rgba(0,0,0,.20));
+    }
+    .p-placeholder{
+      font-size: 15px;
+      font-weight: $light;
+      text-transform: initial;
+    }
+    .pi{
+      color: $green-color;
+    }
+    .p-dropdown-panel{
+      border-radius: 0;
+      @include boxshadow(0px 1px 6px rgba(0,0,0,.20));
+      .p-dropdown-items {
+        padding: 0;
+        .p-dropdown-item{
+          font-family: $lato;
+          font-size: 15px;
+          font-weight: $light;
+          &:hover{
+            background-color: $border-color;
+          }
+        }
+      } 
+    }
+  }
+  .top-filter-bar{
+    margin-bottom: 24px;
+    
+    .filter-details{
+      .p-dropdown {
+        height: 48px;
+      }
+      .close-icon{
+        color: $green-color;
+        cursor: pointer;
+      }
+    }
+    .p-dialog-header{
+      display: none;
+    }
+    .p-dialog-content{
+     
+    }
+  }
+  // confirm-modal
+  .confirm-modal{
+    width: 540px;
+    border-radius: 40px;
+    p{
+      font-family: $lato;
+      font-size: 19px;
+      font-weight: $light ;
+      margin-bottom: 60px;
+    }
+    .p-dialog-content{
+      border-radius: 40px;
+      padding: 62px 50px;
+    }
+  }
+}

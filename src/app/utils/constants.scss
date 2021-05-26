@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@300;400;600;700&display=swap');
+$mobile: "(min-width: 0px) and (max-width: 767px)";
+$tablet: "(min-width: 768px) and (max-width: 991px)";
+$small-desktop: "(min-width: 992px) and (max-width: 1199px)";
+
+// Color Pallate
+$green-color:#049A2D;
+$light-green-color:#82D925;
+$darkgreen-color:#24868E;
+$orange-color:#F99600;
+$light-orange-color:#FAA843;
+$blue-color:#33D0DD;
+$light-blue-color:#F3FEFF;
+$yellow-color:#E6CC00;
+$grey-color:#ACACAC;
+$red-color:#ED4817;
+$white-color:#fff;
+$black-color:#393939;
+$text-color:#2C2C2C;
+$dark-text-color:#525252;
+$border-color:#EFEFEF;
+
+// Font family
+$lato: 'Lato', sans-serif;
+$raleway:'Raleway', sans-serif;
+$light:300;
+$regular: 400;
+$medium:500;
+$semibold: 600;
+$bold: 700;
+
+// Shadow Property
+@mixin boxshadow($property) {
+  -webkit-box-shadow: $property;
+  -ms-box-shadow: $property;
+  box-shadow: $property;
+}
+
+// Button Styles
+@mixin button($background-color, $color) {
+  background-color: $background-color;
+  color: $color;
+}
+@mixin button-primary($background-color,$border-color,$border-radius,$color,$font-size,$font-weight,$line-height) {
+  // background-color: $background-color;
+  // border: $border-color;
+  border-radius: $border-radius;
+  color: $color;
+  font-size:$font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  // background: $border-color; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $orange-color; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $orange-color; 
+}
+p{
+  color: $black-color;
+  font-size: 15px;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+a:focus{
+  box-shadow: none !important;
+}
